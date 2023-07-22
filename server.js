@@ -5,9 +5,7 @@ const port = 3000;
 let count = 0;
 
 app.get("/", function (req, res){
-res.send("hello you are the code your future")
-res.send(count = count + 1);
-// console.log(count);
+res.send("hello you are the code your future" + (count = count + 1));
 })
 
 
